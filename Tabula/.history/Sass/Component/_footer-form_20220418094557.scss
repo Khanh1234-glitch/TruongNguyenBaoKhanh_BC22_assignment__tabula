@@ -1,0 +1,18 @@
+    .contact-form {
+        display: flex;
+        .form-right {
+            .form {
+                width: 393px;
+                height: 504px;
+                .row-form {
+                    display: flex;
+                }
+                .text-form {
+                    textarea {
+                        width: 343px;
+                        height: 94px;
+                    }
+                }
+            }
+        }
+    }

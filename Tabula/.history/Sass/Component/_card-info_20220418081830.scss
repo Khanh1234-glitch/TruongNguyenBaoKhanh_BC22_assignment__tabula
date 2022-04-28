@@ -1,0 +1,24 @@
+.column-img {
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .bg-card {
+        background-color: $color5;
+        .container-card {
+            .card-body {
+                text-align: center;
+                p:first-of-type {
+                    @include content2($fs-10, $fw-2, $color3);
+                    line-height: 13.5px;
+                    margin: 0px 0px 7.875px;
+                }
+                h5 {
+                    @include content2($fs-11, $fw-3, $color4);
+                    line-height: 27.9px;
+                }
+            }
+        }
+    }
+}

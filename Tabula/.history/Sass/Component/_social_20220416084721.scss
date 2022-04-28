@@ -1,0 +1,8 @@
+.navbar-nav {
+    .nav-item {
+        a {
+            @include content2($fs-1, $fw-2, $color2);
+            line-height: 80px;
+        }
+    }
+}

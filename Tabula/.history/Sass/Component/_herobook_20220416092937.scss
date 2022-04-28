@@ -1,0 +1,11 @@
+.hero-book {
+    margin-top: 216px;
+    span {
+        @include content2($fs-7, $fw-2, $color3);
+        line-height: 19.8px;
+    }
+    h1 {
+        @include content2($fs-2, $fw-3, $color4);
+        line-height: 68.4px;
+    }
+}

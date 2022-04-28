@@ -1,0 +1,15 @@
+.column-img {
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .bg-card {
+        background-color: $color5;
+        .container-card {
+            .card-body {
+                text-align: center;
+            }
+        }
+    }
+}

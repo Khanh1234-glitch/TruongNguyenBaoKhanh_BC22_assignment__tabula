@@ -1,0 +1,15 @@
+.navbar-nav {
+    position: absolute;
+    .nav-item {
+        a {
+            @include content2($fs-1, $fw-2, $color2);
+            line-height: 80px;
+            margin-right: 50px;
+            color: $color2 !important;
+            transition: all 0.5s;
+            &:hover {
+                color: $color3;
+            }
+        }
+    }
+}

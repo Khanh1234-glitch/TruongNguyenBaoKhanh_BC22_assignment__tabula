@@ -1,0 +1,12 @@
+.slidebar {
+    ul {
+        list-style: none;
+        a {
+            text-decoration: none;
+            line-height: $fs-3;
+            li {
+                @include content2($fs-1, $fw-3, $color7);
+            }
+        }
+    }
+}

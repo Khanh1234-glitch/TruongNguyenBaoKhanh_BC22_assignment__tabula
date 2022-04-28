@@ -1,0 +1,5 @@
+button {
+    @include content($fs-6, $fw-1, $color3);
+    align-items: center;
+    border-radius: 50px;
+}

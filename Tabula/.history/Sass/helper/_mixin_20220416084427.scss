@@ -1,0 +1,11 @@
+@mixin content($fs, $fw, $color) {
+    font-size: $fs;
+    font-weight: $fw;
+    background-color: $color;
+}
+
+@mixin content2($fs, $fw, $color) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}

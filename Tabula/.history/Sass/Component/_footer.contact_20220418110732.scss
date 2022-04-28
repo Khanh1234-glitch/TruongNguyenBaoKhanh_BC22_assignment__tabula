@@ -1,0 +1,13 @@
+.footer-contact {
+    display: block;
+    .img-header {
+        position: absolute;
+        top: 2100px;
+        z-index: -1;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}

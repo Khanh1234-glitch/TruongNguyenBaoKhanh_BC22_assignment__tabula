@@ -1,0 +1,14 @@
+.footer-contact {
+    background-color: rgb(169, 4, 127);
+    margin-top: 55px;
+    .img-header {
+        position: absolute;
+        top: 2100px;
+        z-index: -1;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}

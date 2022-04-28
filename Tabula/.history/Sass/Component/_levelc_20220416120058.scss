@@ -1,0 +1,32 @@
+.level-c {
+    padding-top: 100px;
+    .title-level-c {
+        display: flex;
+        .text_right {
+            margin-left: 130px;
+            p:first-of-type {
+                @include content2($fs-8, $fw-2, $color3);
+                line-height: 18px;
+                margin: 0px 0px 9px;
+            }
+            p {
+                @include content2($fs-9, $fw-0, $color4);
+                line-height: 32.775px;
+            }
+            list-style: none;
+            .list-beginner {
+                p {
+                    @include content2($fs-5, $fw-0, $color4);
+                    i {
+                        color: $color3;
+                    }
+                    &:hover {
+                        i {
+                            color: black !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

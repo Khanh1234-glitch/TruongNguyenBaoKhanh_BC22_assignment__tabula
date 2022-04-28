@@ -1,0 +1,73 @@
+    .contact-form {
+        display: flex;
+        .form-right {
+            box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
+            margin-left: 60px;
+            .form {
+                width: 393px;
+                height: 504px;
+                .title {
+                    line-height: 45px;
+                    @include content2($fs-12, $fw-3, $color4);
+                    margin-bottom: 50px;
+                    text-align: center;
+                }
+                .contact-form-bottom {
+                    width: 343px;
+                    line-height: 27px;
+                    .row-form {
+                        margin-left: 30px;
+                        .name-form {
+                            input {
+                                border-radius: 50px;
+                                width: 157px;
+                                box-shadow: #000000 0px 0px 4px 0px;
+                                border: 1px solid $color4;
+                                padding: 12px 12px 12px 42px;
+                                margin: 0 15px 15px 0;
+                            }
+                        }
+                        .email-form {
+                            input {
+                                border-radius: 50px;
+                                width: 157px;
+                                box-shadow: #000000 0px 0px 4px 0px;
+                                border: 1px solid $color4;
+                                padding: 12px 12px 12px 42px;
+                                margin: 0 15px 15px 0;
+                            }
+                        }
+                    }
+                    .seclect-form {
+                        display: flex;
+                        justify-content: center;
+                        .form-control {
+                            border: 1px solid black;
+                            border-radius: 50px;
+                            color: #181818;
+                            font-size: $fs-0;
+                            line-height: 38.4px;
+                            padding: 0px 0px 0px 36px;
+                            margin-bottom: 15px;
+                            width: 343px;
+                            height: 38px;
+                        }
+                    }
+                    .text-form {
+                        display: flex;
+                        justify-content: center;
+                        margin-bottom: 45px;
+                        textarea {
+                            width: 343px;
+                            height: 94px;
+                            border-radius: 20px;
+                            border: 1px solid $color2;
+                            font-size: $fs-0;
+                            padding: 12px 12px 12px 42px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }

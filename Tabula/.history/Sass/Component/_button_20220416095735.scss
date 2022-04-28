@@ -1,0 +1,38 @@
+    .navbar-nav {
+        .button {
+            display: flex;
+            align-items: center;
+            margin-right: 18px;
+            button {
+                @include content($fs-6, $fw-1, $color3);
+                align-items: center;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                line-height: 13.5px;
+                margin: 6px;
+                padding: 14.85px 20.25px;
+                text-align: center;
+                color: #fff;
+                border: 1px solid $color3;
+                transition: 1s ease-in-out;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    transform: scaleX(0);
+                    transition: 1s ease-in-out;
+                    background-color: #fff;
+                }
+                &:hover {
+                    &::before {
+                        transform: scaleX(1);
+                    }
+                    border: 1px solid $color3;
+                }
+            }
+        }
+    }

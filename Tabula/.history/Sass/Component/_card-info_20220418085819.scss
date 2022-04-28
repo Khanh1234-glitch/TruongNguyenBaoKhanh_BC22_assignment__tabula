@@ -1,0 +1,106 @@
+.column-img {
+    position: relative;
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .bg-card {
+        background-color: $color5;
+        .container-card {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            .card-body {
+                text-align: center;
+                p:first-of-type {
+                    @include content2($fs-10, $fw-2, $color3);
+                    line-height: 13.5px;
+                    margin: 0px 0px 7.875px;
+                }
+                h5 {
+                    @include content2($fs-11, $fw-3, $color4);
+                    line-height: 27.9px;
+                }
+                p:last-child {
+                    color: $color2;
+                    font-size: 15px;
+                    line-height: 27px;
+                    text-align: center;
+                }
+            }
+            .card {
+                border-radius: 10px;
+                transition: all 0.5s;
+                .img-card {
+                    overflow: hidden;
+                }
+                &:hover {
+                    box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
+                    img {
+                        transform: scale(1.1);
+                        -webkit-transform: scale(1.1);
+                        -moz-transform: scale(1.1);
+                        -o-transform: scale(1.1);
+                        -ms-transform: scale(1.1);
+                    }
+                }
+                img {
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    transition: all 0.3s;
+                }
+            }
+        }
+    }
+}
+
+.card-bottom {
+    position: absolute;
+    top: 70%;
+    .container-card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 74px;
+        .card-body {
+            text-align: center;
+            p:first-of-type {
+                @include content2($fs-10, $fw-2, $color3);
+                line-height: 13.5px;
+                margin: 0px 0px 7.875px;
+            }
+            h5 {
+                @include content2($fs-11, $fw-3, $color4);
+                line-height: 27.9px;
+            }
+            p:last-child {
+                color: $color2;
+                font-size: 15px;
+                line-height: 27px;
+                text-align: center;
+            }
+        }
+        .card {
+            border-radius: 10px;
+            transition: all 0.5s;
+            .img-card {
+                overflow: hidden;
+            }
+            &:hover {
+                box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
+                img {
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                    -moz-transform: scale(1.1);
+                    -o-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                }
+            }
+            img {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                transition: all 0.3s;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+    .navbar-nav {
+        .button {
+            display: flex;
+            align-items: center;
+            margin-right: 18px;
+            button {
+                @include content($fs-6, $fw-1, $color3);
+                align-items: center;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                line-height: 13.5px;
+                margin: 6px;
+                padding: 14.85px 20.25px;
+                text-align: center;
+                color: #fff;
+                border: 1px solid $color3;
+                transition: all 0.2s;
+                &:hover {
+                    background-color: #fff !important;
+                    border: 1px solid $color3;
+                    color: $color3;
+                }
+            }
+        }
+    }
+    
+    .form {
+        button {
+            width: 150px;
+            height: 48px;
+            @include content($fs-6, $fw-1, $color3);
+            align-items: center;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            line-height: 13.5px;
+            margin: 6px;
+            padding: 18.9px 35.1px;
+            text-align: center;
+            color: #fff;
+            border: 1px solid $color3;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            &:hover {
+                background-color: #fff !important;
+                border: 1px solid $color3;
+                color: $color3;
+            }
+        }
+    }

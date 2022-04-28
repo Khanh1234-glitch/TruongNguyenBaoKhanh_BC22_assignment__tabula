@@ -1,0 +1,92 @@
+    .contact-form {
+        display: flex;
+        .form-right {
+            box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
+            margin-left: 60px;
+            padding: 0px 25px;
+            border-radius: 10px;
+            line-height: 27px;
+            .form {
+                margin-top: 40px;
+                width: 393px;
+                height: 504px;
+                position: relative;
+                .title {
+                    line-height: 45px;
+                    @include content2($fs-12, $fw-3, $color4);
+                    margin-bottom: 50px;
+                    text-align: center;
+                }
+                .contact-form-bottom {
+                    width: 343px;
+                    line-height: 27px;
+                    .row-form {
+                        display: flex;
+                        margin-left: 30px;
+                        .name-form {
+                            i {
+                                position: absolute;
+                                top: 112px;
+                                left: 50px;
+                                color: $color3;
+                            }
+                            input {
+                                border-radius: 50px;
+                                width: 157px;
+                                box-shadow: #000000 0px 0px 4px 0px;
+                                border: 1px solid $color4;
+                                padding: 12px 12px 12px 42px;
+                                margin: 0 15px 15px 0;
+                            }
+                        }
+                        .email-form {
+                            i {
+                                position: absolute;
+                                left: 220px;
+                                top: 112px;
+                                color: $color3;
+                            }
+                            input {
+                                border-radius: 50px;
+                                width: 157px;
+                                box-shadow: #000000 0px 0px 4px 0px;
+                                border: 1px solid $color4;
+                                padding: 12px 12px 12px 42px;
+                                margin: 0 15px 15px 0;
+                            }
+                        }
+                    }
+                    .seclect-form {
+                        margin-left: 30px;
+                        i {
+                            position: absolute;
+                            top: 100px;
+                        }
+                        .form-control {
+                            border: 1px solid black;
+                            border-radius: 50px;
+                            color: #181818;
+                            font-size: $fs-0;
+                            line-height: 38.4px;
+                            padding: 0px 0px 0px 36px;
+                            margin-bottom: 15px;
+                            width: 343px;
+                            height: 38px;
+                        }
+                    }
+                    .text-form {
+                        margin: 0 0 45px 30px;
+                        textarea {
+                            width: 343px;
+                            height: 94px;
+                            border-radius: 20px;
+                            border: 1px solid $color2;
+                            font-size: $fs-0;
+                            padding: 12px 12px 12px 42px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }

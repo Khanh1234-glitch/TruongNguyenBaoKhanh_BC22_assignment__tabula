@@ -1,0 +1,15 @@
+.navbar-nav {
+    .nav-item {
+        .btn-header {
+            @include content($fs-6, $fw-1, $color3);
+            align-items: center;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            line-height: 13.5px;
+            margin: 6px;
+            padding: 14.85px 20.25px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.beginner {
+    background-color: rgb(220, 209, 240);
+    .text_right {
+        p:first-of-type {
+            @include content2($fs-8, $fw-2, $color3);
+            line-height: 18px;
+            margin: 0px 0px 9px;
+        }
+        p {
+            @include content2($fs-9, $fw-0, $color4);
+            line-height: 32.775px;
+            margin: 13.8px 0px 0px;
+        }
+        ul {
+            list-style: none;
+            li {
+                &:hover {
+                    i {
+                        color: black
+                    }
+                }
+                i {
+                    color: $color3;
+                }
+            }
+        }
+    }
+}

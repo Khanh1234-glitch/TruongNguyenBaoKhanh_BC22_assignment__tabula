@@ -1,0 +1,36 @@
+.beginner {
+    padding-top: 100px;
+    background-color: rgb(220, 209, 240);
+    .title-beginner {
+        display: flex;
+        .text_right {
+            margin-left: 130px;
+            p:first-of-type {
+                @include content2($fs-8, $fw-2, $color3);
+                line-height: 18px;
+                margin: 0px 0px 9px;
+            }
+            p {
+                @include content2($fs-9, $fw-0, $color4);
+                line-height: 32.775px;
+                margin: 13.8px 0px 0px;
+                padding-bottom: 28px;
+            }
+            list-style: none;
+            .list-beginner {
+                p {
+                    @include content2($fs-9, $fw-0, $color4);
+                    margin-bottom: 22px;
+                    i {
+                        color: $color3;
+                    }
+                    &:hover {
+                        i {
+                            color: black !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

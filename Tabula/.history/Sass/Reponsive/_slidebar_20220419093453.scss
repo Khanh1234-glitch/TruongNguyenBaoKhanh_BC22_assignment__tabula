@@ -1,0 +1,9 @@
+.slidebar {
+    ul {
+        a {
+            li {
+                @include content2($fs-1, $fw-3, $color7)
+            }
+        }
+    }
+}

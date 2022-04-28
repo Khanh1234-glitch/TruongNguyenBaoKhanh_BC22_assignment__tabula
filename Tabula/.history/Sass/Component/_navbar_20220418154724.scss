@@ -1,0 +1,25 @@
+body {
+    background: url("./../../img/yellow_top_wave_01.png");
+    background-repeat: no-repeat;
+}
+
+.navbar-nav {
+    .nav-item {
+        .nav-link {
+            @include content2($fs-1,
+            $fw-3,
+            $color2);
+            margin-left: 50px;
+        }
+    }
+}
+
+.form-inline {
+    .social {
+        a {
+            i {
+                margin: 0 12px 0 18px;
+            }
+        }
+    }
+}

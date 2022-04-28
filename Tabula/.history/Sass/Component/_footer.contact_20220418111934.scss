@@ -1,0 +1,30 @@
+.footer-contact {
+    background-color: rgb(169, 4, 127);
+    margin-top: 54px;
+    .img-header {
+        position: absolute;
+        top: 2100px;
+        z-index: -1;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    .contact-end {
+        .contact-us {
+            span {
+                line-height: 27.9px;
+                @include content2($fs-11, $fw-3, $color6);
+            }
+            .content-list {
+                ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    color: $color6;
+                }
+            }
+        }
+    }
+}
